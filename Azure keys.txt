@@ -1,0 +1,19 @@
+---- TEST 
+#enter credentials
+account_name = 'hackathontestdata2024'
+account_key = 'tg0nWp+1a+iURGfNmQ+is+CH99bDF8k9Y4HlBKWmPhrFunIx++3P7Yls8YFersYqg9jVViGlYNAa+ASt8K82zQ=='
+
+container_name = 'data'
+
+#create a client to interact with blob storage
+connect_str = 'DefaultEndpointsProtocol=https;AccountName=' + account_name + ';AccountKey=' + account_key + ';EndpointSuffix=core.windows.net'
+
+---- TRAIN
+
+#enter credentials
+account_name = 'hackathon1415'
+account_key = 'e7qwt4TLGN+uT8cpSlSWK33n6cWTVj6F7DTcCKthzGMSc7jzHQotIBGe3KgwtLsLzXzdvXECj28T+AStWSi/LA=='
+container_name = 'data'
+
+#create a client to interact with blob storage
+connect_str = 'DefaultEndpointsProtocol=https;AccountName=' + account_name + ';AccountKey=' + account_key + ';EndpointSuffix=core.windows.net'
